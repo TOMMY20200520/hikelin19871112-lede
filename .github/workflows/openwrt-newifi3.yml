@@ -25,11 +25,11 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@
-        id: 
-        if: 
-        with:
-          ref: master
+        uses: actions/checkout@master
+  #      id: 
+  #      if: 
+  #      with:
+  #        ref: master
         #      ↑↑↑ 改成你的分支名, 一般是master
 
       - name: Initialization environment
